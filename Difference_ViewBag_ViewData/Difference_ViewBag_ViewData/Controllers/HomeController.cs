@@ -31,6 +31,14 @@ namespace Difference_ViewBag_ViewData.Controllers
             ViewData["Em1"] = achyut;
             ViewBag.Em2 = achyut;
 
+
+
+            return View();
+        }
+
+        public ActionResult About()
+        {
+
             return View();
         }
     }
