@@ -19,7 +19,46 @@
     new
     {
         @class = "form-control",
-        @readonly=true,
+        @readonly = true,
         style = "background-color: gray; color:White; font-weight:bold; cursor:pointer;",
         title = "Please enter your name",
     })
+
+<br />
+<br />
+
+@{
+    Html.BeginForm("Index", "Home");
+}
+
+@Html.Label("Username") &nbsp; @Html.TextBox("Username","", new { @class="form-control"})
+<br />
+<br />
+@Html.Label("Password") &nbsp; @Html.Password("pass", "", new { @class = "form-control" })
+<br />
+<br />
+@Html.Label("Male") &nbsp; @Html.RadioButton("Gender", "Male", true)
+@Html.Label("Female") &nbsp; @Html.RadioButton("Gender", "Female")
+<br />
+<br />
+
+@Html.Label("Select Country") &nbsp; @Html.DropDownList("CountryList", new SelectList(new[] { "Nepal", "Germany", "USA" }), "Choose", new { @class = "form-control" })
+<br />
+<br />
+@Html.Label("comments") &nbsp; @Html.TextArea("Comments", "", new { @class = "form-control" })
+<br />
+<br />
+@Html.Label("comments") &nbsp; @Html.TextArea("Comments", "", 5, 20, null)
+@Html.Label("comments") &nbsp; @Html.TextArea("Comments", "", 5, 20, new { @class = "form-control" })
+<br />
+<br />
+@Html.CheckBox("Accept Terms", true) &nbsp; @Html.Label("I accept the Terms and Conditions")
+<br />
+<br />
+@Html.Hidden("id")
+<br />
+<br />
+<input type="submit" value="Submit"/>
+@{
+    Html.EndForm();
+}
