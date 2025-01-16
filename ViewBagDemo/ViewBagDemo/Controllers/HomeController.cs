@@ -33,7 +33,8 @@ namespace ViewBagDemo.Controllers
             e1.Des = "Manager";
 
             ViewBag.em = e1;
-            
+
+            ViewBag.CommonMessage = "This msg is accessed by both ViewBag and ViewData";
             
 
             return View();
