@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<input type="text" name="fullname" id="fullname" value="" />
+<br />
+<br />
+
+@Html.TextBox("fullname")
+<br />
+<br />
+@Html.TextBox("fullname", "Achyut")
+<br />
+<br />
+@Html.TextBox("fullname", "Achyut",
+    new
+    {
+        @class = "form-control",
+        @readonly=true,
+        style = "background-color: gray; color:White; font-weight:bold; cursor:pointer;",
+        title = "Please enter your name",
+    })
