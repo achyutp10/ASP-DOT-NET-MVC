@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.Partial("_EmployeeList")
+<br />
+<br />
+@{
+    Html.RenderPartial("_EmployeeList");
+}
+
+@Html.Partial("_LoginPartialView")
+<br />
+<br />
+@{
+    Html.RenderPartial("_LoginPartialView");
+}
