@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
@@ -8,17 +9,22 @@ namespace DataAnnotations.Models
 {
     public class Employee
     {
+        [DisplayName("Employee ID")]
         [Required (ErrorMessage = "Id is Mandatory")]
         public int Id { get; set; }
 
+        [DisplayName("Employee Name")]
         [StringLength(10,MinimumLength = 5, ErrorMessage = "Length of Name should be in between 5 & 20")]
         [Required(ErrorMessage = "Name is Mandatory")]
         public string Name { get; set; }
 
+        [DisplayName("Employee Age")]
         [Required(ErrorMessage = "Age is Mandatory")]
         [Range(0,120,ErrorMessage ="Age should be in range 0-120")]
         public int? Age { get; set; }        
         [Required(ErrorMessage = "Gender is Mandatory")]
+
+        [DisplayName("Employee Gender")]
         public string Gender { get; set; }
 
         [Required(ErrorMessage = "Email is Mandatory")]
