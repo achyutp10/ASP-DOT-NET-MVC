@@ -1,0 +1,26 @@
+﻿@model StronglyTypedPartialView.Models.Product
+
+<table border="2" width="400" align="center">
+    <tr>
+        <td>
+            <img src="@Url.Content(Model.picture)" width="150" height="150"/>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>Product ID: </td>
+                    <td>@Model.id</td>
+                </tr>
+                <tr>
+                    <td>Product Name: </td>
+                    <td>@Model.name</td>
+                </tr>
+                <tr>
+                    <td>Product Price: </td>
+                    <td>@Model.price</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<br />

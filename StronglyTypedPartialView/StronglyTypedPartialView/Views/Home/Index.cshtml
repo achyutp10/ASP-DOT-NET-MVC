@@ -1,0 +1,16 @@
+﻿@model List<StronglyTypedPartialView.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h1 class="text-center">Products</h1>
+
+@{ 
+	foreach (var item in Model)
+	{
+		Html.RenderPartial("_ProductsPartialView", item);
+	}
+}
