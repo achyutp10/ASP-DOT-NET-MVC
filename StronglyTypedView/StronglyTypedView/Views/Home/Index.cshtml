@@ -1,0 +1,36 @@
+﻿
+@*@model StronglyTypedView.Models.Employee*@
+@model List<StronglyTypedView.Models.Employee>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{ 
+    var a = (StronglyTypedView.Models.Employee)ViewData["Var1"];
+    var b = ViewBag.Var2;
+}
+
+<h1>View Data: @a.Id, @a.Name, @a.Age</h1>
+
+<h1>View Bag: @b.Id, @b.Name, @b.Age</h1>
+
+<h1>Strongly Typed View Data</h1>
+@*<h4>@Model.Id</h4>
+<h4>@Model.Name</h4>
+<h4>@Model.Age</h4>*@
+
+<ul>
+
+@{ 
+    foreach (var i in Model)
+    {
+        <li>@i.Id</li>
+        <li>@i.Name</li>
+        <li>@i.Age</li>
+    }
+}
+</ul>
