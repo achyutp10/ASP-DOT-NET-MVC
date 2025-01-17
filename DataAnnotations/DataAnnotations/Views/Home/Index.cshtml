@@ -1,7 +1,34 @@
-﻿
+﻿@model DataAnnotations.Models.Employee
+
 @{
     ViewBag.Title = "Index";
 }
 
 <h2>Index</h2>
 
+@using (Html.BeginForm())
+ {
+    <p>
+        @Html.LabelFor(model => model.Id) &nbsp; @Html.TextBoxFor(model => model.Id, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Id, "", new {@class="text-danger"})
+    </p>
+    <p>
+        @Html.LabelFor(model => model.Name) &nbsp; @Html.TextBoxFor(model => model.Name, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </p>
+    <p>
+        @Html.LabelFor(model => model.Age) &nbsp; @Html.TextBoxFor(model => model.Age, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+    </p>
+    <p>
+        @Html.LabelFor(model => model.Gender) &nbsp; @Html.TextBoxFor(model => model.Gender, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+    </p>
+    <p>
+        @Html.LabelFor(model => model.Email) &nbsp; @Html.TextBoxFor(model => model.Email, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+    </p>
+
+    <input type="submit" value="Submit" class="btn btn-success"/>
+    @Html.Raw(ViewData["SuccessMessage"])
+ }
