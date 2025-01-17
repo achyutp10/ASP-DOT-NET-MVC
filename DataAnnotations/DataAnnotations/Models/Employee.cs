@@ -30,5 +30,10 @@ namespace DataAnnotations.Models
         public string Password { get; set; }
 
 
+        [Required(ErrorMessage = "Confirm Password is Mandatory")]
+        [Compare("Password",ErrorMessage = "Password do not match")]
+        public string ConfirmPassword { get; set; }
+
+
     }
 }

@@ -7,10 +7,10 @@
 <h2>Index</h2>
 
 @using (Html.BeginForm())
- {
+{
     <p>
         @Html.LabelFor(model => model.Id) &nbsp; @Html.TextBoxFor(model => model.Id, "", new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Id, "", new {@class="text-danger"})
+        @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
     </p>
     <p>
         @Html.LabelFor(model => model.Name) &nbsp; @Html.TextBoxFor(model => model.Name, "", new { @class = "form-control" })
@@ -32,7 +32,11 @@
         @Html.LabelFor(model => model.Password) &nbsp; @Html.TextBoxFor(model => model.Password, "", new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
     </p>
+    <p>
+        @Html.LabelFor(model => model.ConfirmPassword) &nbsp; @Html.TextBoxFor(model => model.ConfirmPassword, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+    </p>
 
-    <input type="submit" value="Submit" class="btn btn-success"/>
+    <input type="submit" value="Submit" class="btn btn-success" />
     @Html.Raw(ViewData["SuccessMessage"])
- }
+}
