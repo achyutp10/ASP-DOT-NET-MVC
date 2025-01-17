@@ -14,7 +14,9 @@ namespace DataAnnotations.Models
         [StringLength(10,MinimumLength = 5, ErrorMessage = "Length of Name should be in between 5 & 20")]
         [Required(ErrorMessage = "Name is Mandatory")]
         public string Name { get; set; }
+
         [Required(ErrorMessage = "Age is Mandatory")]
+        [Range(0,120,ErrorMessage ="Age should be in range 0-120")]
         public int? Age { get; set; }        
         [Required(ErrorMessage = "Gender is Mandatory")]
         public string Gender { get; set; }
@@ -26,5 +28,7 @@ namespace DataAnnotations.Models
         [Required(ErrorMessage = "Password is Mandatory")]
         [RegularExpression(@"(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$""", ErrorMessage = "Uppercase, Lowercase, Numbers, Symbols, 8 Characters")]
         public string Password { get; set; }
+
+
     }
 }
