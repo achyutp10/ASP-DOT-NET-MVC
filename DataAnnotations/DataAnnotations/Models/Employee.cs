@@ -41,5 +41,11 @@ namespace DataAnnotations.Models
         public string ConfirmPassword { get; set; }
 
 
+        [DisplayName("Organization Name")]
+        [ReadOnly(true)]
+        public string OrgName { get; set; }
+
+
+
     }
 }

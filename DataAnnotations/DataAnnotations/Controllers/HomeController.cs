@@ -55,7 +55,11 @@ namespace DataAnnotations.Controllers
                 ViewData["SuccessMessage"] = "<script>alert('Data has been submitted')</script>";
                 ModelState.Clear();
             }
-            return View();
+            var employee = new Employee
+            {
+                OrgName = "Abc Org" // Set the default value here
+            };
+            return View(employee);
         }
     }
 }

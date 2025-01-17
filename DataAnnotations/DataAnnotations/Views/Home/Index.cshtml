@@ -25,18 +25,20 @@
         @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
     </p>
     <p>
-        @Html.LabelFor(model => model.Email) &nbsp; @Html.TextBoxFor(model => model.Email, "", new { @class = "form-control" })
+        @Html.LabelFor(model => model.Email) &nbsp; @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
     </p>
     <p>
-        @Html.LabelFor(model => model.Password) &nbsp; @Html.TextBoxFor(model => model.Password, "", new { @class = "form-control" })
+        @Html.LabelFor(model => model.Password) &nbsp; @Html.TextBoxFor(model => model.Password, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
     </p>
     <p>
-        @Html.LabelFor(model => model.ConfirmPassword) &nbsp; @Html.TextBoxFor(model => model.ConfirmPassword, "", new { @class = "form-control" })
+        @Html.LabelFor(model => model.ConfirmPassword) &nbsp; @Html.TextBoxFor(model => model.ConfirmPassword, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
     </p>
-
+    <p>
+        @Html.LabelFor(model => model.OrgName) &nbsp; @Html.TextBoxFor(model => model.OrgName, new { @class = "form-control", @value="Abc", @readonly="readonly" })
+    </p>
     <input type="submit" value="Submit" class="btn btn-success" />
     @Html.Raw(ViewData["SuccessMessage"])
 }
