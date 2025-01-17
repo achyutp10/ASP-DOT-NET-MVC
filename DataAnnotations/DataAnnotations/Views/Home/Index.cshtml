@@ -28,6 +28,10 @@
         @Html.LabelFor(model => model.Email) &nbsp; @Html.TextBoxFor(model => model.Email, "", new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
     </p>
+    <p>
+        @Html.LabelFor(model => model.Password) &nbsp; @Html.TextBoxFor(model => model.Password, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+    </p>
 
     <input type="submit" value="Submit" class="btn btn-success"/>
     @Html.Raw(ViewData["SuccessMessage"])
