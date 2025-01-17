@@ -37,7 +37,7 @@
         @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
     </p>
     <p>
-        @Html.LabelFor(model => model.OrgName) &nbsp; @Html.TextBoxFor(model => model.OrgName, new { @class = "form-control", @value="Abc", @readonly="readonly" })
+        @Html.LabelFor(model => model.OrgName) &nbsp; @Html.TextBoxFor(model => model.OrgName, new { @class = "form-control", @Value="Abc", @readonly="readonly" })
     </p>
     <input type="submit" value="Submit" class="btn btn-success" />
     @Html.Raw(ViewData["SuccessMessage"])
