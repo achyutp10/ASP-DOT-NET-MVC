@@ -18,3 +18,16 @@
 @{
     Html.RenderPartial("_LoginPartialView");
 }
+<br />
+<br />
+<p>Differences</p>
+@{
+    var List = Html.Partial("_EmployeeList");
+    List = new MvcHtmlString("<h3>Here is Employee list</h3>" + List.ToString());
+}
+@List
+<br />
+<br />
+@{ 
+    Html.RenderPartial("_EmployeeList");
+}
