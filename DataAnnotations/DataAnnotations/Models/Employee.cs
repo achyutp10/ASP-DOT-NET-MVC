@@ -31,11 +31,12 @@ namespace DataAnnotations.Models
         [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$",ErrorMessage ="Invalid Email")]
         public string Email { get; set; }
 
+        [DataType(DataType.Password)]
         [Required(ErrorMessage = "Password is Mandatory")]
         [RegularExpression(@"(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$""", ErrorMessage = "Uppercase, Lowercase, Numbers, Symbols, 8 Characters")]
         public string Password { get; set; }
 
-
+        [DataType(DataType.Password)]
         [Required(ErrorMessage = "Confirm Password is Mandatory")]
         [Compare("Password",ErrorMessage = "Password do not match")]
         public string ConfirmPassword { get; set; }

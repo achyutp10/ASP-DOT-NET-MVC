@@ -29,7 +29,7 @@
         @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
     </p>
     <p>
-        @Html.LabelFor(model => model.Password) &nbsp; @Html.TextBoxFor(model => model.Password, new { @class = "form-control" })
+        @Html.LabelFor(model => model.Password) &nbsp; @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
     </p>
     <p>
