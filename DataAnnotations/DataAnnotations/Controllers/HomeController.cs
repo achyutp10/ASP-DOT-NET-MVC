@@ -33,7 +33,7 @@ namespace DataAnnotations.Controllers
             }
             if (e.Gender.Equals("") == true)
             {
-                ModelState.AddModelError("Age", "Age is Required");
+                ModelState.AddModelError("Gender", "Gender is Required");
                 ViewData["AgeError"] = "*";
             }
             if (e.Email.Equals("") == true)

@@ -46,6 +46,22 @@ namespace DataAnnotations.Models
         [ReadOnly(true)]
         public string OrgName { get; set; }
 
+        [DisplayName("Employee Address")]
+        [Required(ErrorMessage = "Address is Mandatory")]
+        [DataType(DataType.MultilineText)]
+        public string Address { get; set; }
+
+
+        [DisplayName("Employee Join Date")]
+        [Required(ErrorMessage = "Date is Mandatory")]
+        [DataType(DataType.Date)]
+        public string JoinDate { get; set; }
+        
+        [DisplayName("Employee Join Time")]
+        [Required(ErrorMessage = "Time is Mandatory")]
+        [DataType(DataType.Time)]
+        public string JoinTime { get; set; }
+
 
 
     }

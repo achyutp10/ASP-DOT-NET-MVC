@@ -37,7 +37,20 @@
         @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
     </p>
     <p>
-        @Html.LabelFor(model => model.OrgName) &nbsp; @Html.TextBoxFor(model => model.OrgName, new { @class = "form-control", @Value="Abc", @readonly="readonly" })
+        @Html.LabelFor(model => model.OrgName) &nbsp; @Html.TextBoxFor(model => model.OrgName, new { @class = "form-control", @Value = "Abc", @readonly = "readonly" })
+    </p>
+    <p>
+        @Html.LabelFor(model => model.Address) &nbsp; @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.JoinDate) &nbsp; @Html.EditorFor(model => model.JoinDate, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.JoinDate, "", new { @class = "text-danger" })
+    </p>
+    <p>
+        @Html.LabelFor(model => model.JoinTime) &nbsp; @Html.EditorFor(model => model.JoinTime, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.JoinTime, "", new { @class = "text-danger" })
     </p>
     <input type="submit" value="Submit" class="btn btn-success" />
     @Html.Raw(ViewData["SuccessMessage"])
