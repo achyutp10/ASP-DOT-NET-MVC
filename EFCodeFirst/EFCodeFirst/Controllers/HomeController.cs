@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using EFCodeFirst.Models;
+using System.Data.Entity;
 
 namespace EFCodeFirst.Controllers
 {
@@ -44,6 +45,38 @@ namespace EFCodeFirst.Controllers
             }
             return View();
         }
+
+        public ActionResult Edit(int id)
+        {
+            var row = db.Students.Where(model => model.Id == id).FirstOrDefault();
+            return View(row);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Student s)
+        {
+            if (ModelState.IsValid == true)
+            {
+                db.Entry(s).State = EntityState.Modified;
+                int a = db.SaveChanges();
+                if (a > 0)
+                {
+                    //ViewBag.InsertMessage = "<script>alert('Data Inserted')</script>";
+                    //TempData["InsertMessage"] = "<script>alert('Data Inserted')</script>";
+                    TempData["InsertMessage"] = "Data Updated";
+
+                    //ModelState.Clear();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ViewBag.InsertMessage = "<script>alert('Data not Updated')</script>";
+                }
+            }
+
+            return View();
+        }
+
     }
 
 }
