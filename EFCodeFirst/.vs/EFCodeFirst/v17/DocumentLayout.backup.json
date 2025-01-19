@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\",
+  "WorkspaceRootPath": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|c:\\users\\achyu\\source\\repos\\efcodefirst\\efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|c:\\users\\achyu\\source\\repos\\efcodefirst\\efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|c:\\users\\achyu\\source\\repos\\efcodefirst\\efcodefirst\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|c:\\users\\achyu\\source\\repos\\efcodefirst\\efcodefirst\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|c:\\users\\achyu\\source\\repos\\efcodefirst\\efcodefirst\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,41 +34,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T13:10:26.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-19T07:29:10.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EFCodeFirst\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Controllers\\HomeController.cs",
               "RelativeToolTip": "EFCodeFirst\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIAwwCMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T07:10:00.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Web.config",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Web.config",
               "RelativeDocumentMoniker": "EFCodeFirst\\Web.config",
-              "ToolTip": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Web.config",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Web.config",
               "RelativeToolTip": "EFCodeFirst\\Web.config",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -73,29 +90,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentContext.cs",
-              "DocumentMoniker": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Models\\StudentContext.cs",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Models\\StudentContext.cs",
               "RelativeDocumentMoniker": "EFCodeFirst\\Models\\StudentContext.cs",
-              "ToolTip": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Models\\StudentContext.cs",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Models\\StudentContext.cs",
               "RelativeToolTip": "EFCodeFirst\\Models\\StudentContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T06:43:09.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T06:43:09.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Models\\Student.cs",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Models\\Student.cs",
               "RelativeDocumentMoniker": "EFCodeFirst\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\achyu\\source\\repos\\EFCodeFirst\\EFCodeFirst\\Models\\Student.cs",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Models\\Student.cs",
               "RelativeToolTip": "EFCodeFirst\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T06:41:37.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T06:41:37.631Z"
             }
           ]
         }
