@@ -103,6 +103,12 @@ namespace EFCodeFirst.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult Details(int id)
+        {
+            var DetailsById = db.Students.Where(models =>  models.Id == id).FirstOrDefault();
+            return View(DetailsById);
+        }
+
         
 
     }

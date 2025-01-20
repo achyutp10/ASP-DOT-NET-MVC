@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -42,19 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Delete.cshtml",
-              "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Delete.cshtml",
-              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Delete.cshtml",
-              "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T15:47:23.972Z",
+              "WhenOpened": "2025-01-20T05:07:39.888Z",
               "EditorCaption": ""
             },
             {
@@ -67,8 +67,7 @@
               "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T14:46:16.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T14:46:16.395Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T13:10:26.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T13:10:26.684Z"
             },
             {
               "$type": "Document",
@@ -91,20 +89,20 @@
               "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-19T07:29:10.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EFCodeFirst\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Controllers\\HomeController.cs",
               "RelativeToolTip": "EFCodeFirst\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAIwF8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T07:10:00.67Z",
               "EditorCaption": ""
