@@ -1,0 +1,45 @@
+﻿
+@model LoginFormMvc.Models.user
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="row d-flex justify-content-center">
+    <div class="col-md-4">
+        <div style="border: 5px black ridge; padding: 10px">
+            @using (Html.BeginForm("Index","Login",FormMethod.Post))
+            {
+                <table height="200">
+                    <tr>
+                        <th colspan="2" class="text-center" style="font-size: 25px;">Login</th>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(model => model.username)</td>
+                        <td>
+                            @Html.TextBoxFor(model => model.username, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(model => model.password)</td>
+                        <td>
+                            @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                            @ViewBag.ErrorMessage
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Login" name="login" class="btn btn-success"/>
+                        <a href="/Login/Reset" class="btn btn-danger">Reset</a>
+                        </td>
+                    </tr>
+                </table>
+            }
+        </div>
+    </div>
+</div>
+
