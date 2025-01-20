@@ -77,6 +77,34 @@ namespace EFCodeFirst.Controllers
             return View();
         }
 
+        
+        public ActionResult Delete(int id)
+        {
+            if (id > 0)
+            {
+            var row = db.Students.Where(model => model.Id == id).FirstOrDefault();
+                if (row != null)
+                {
+                    db.Entry(row).State = EntityState.Deleted;
+                    int a = db.SaveChanges();
+                    if (a > 0)
+                    {
+                        TempData["InsertMessage"] = "Data Deleted";                       
+                    }
+                    else
+                    {
+                        TempData["InsertMessage"] = "Data Not Deleted";
+
+                    }
+
+                }
+            }
+            
+            return RedirectToAction("Index");
+        }
+
+        
+
     }
 
 }

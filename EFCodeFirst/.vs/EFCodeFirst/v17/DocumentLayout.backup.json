@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\efcodefirst\\efcodefirst\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|solutionrelative:efcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{366AC25F-74A3-4DF8-9C2C-2726673D3010}|EFCodeFirst\\EFCodeFirst.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\efcodefirst\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,43 +42,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Delete.cshtml",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Delete.cshtml",
+              "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T15:47:23.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Edit.cshtml",
               "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Edit.cshtml",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Edit.cshtml",
               "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-19T14:46:16.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Create.cshtml",
               "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Create.cshtml",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Create.cshtml",
               "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-19T13:10:26.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EFCodeFirst\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EFCodeFirst\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-19T07:29:10.205Z",
               "EditorCaption": ""
@@ -87,14 +104,14 @@
               "RelativeDocumentMoniker": "EFCodeFirst\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Controllers\\HomeController.cs",
               "RelativeToolTip": "EFCodeFirst\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAwwDYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwF8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T07:10:00.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Web.config",
               "RelativeDocumentMoniker": "EFCodeFirst\\Web.config",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StudentContext.cs",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Models\\StudentContext.cs",
               "RelativeDocumentMoniker": "EFCodeFirst\\Models\\StudentContext.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\EFCodeFirst\\EFCodeFirst\\Models\\Student.cs",
               "RelativeDocumentMoniker": "EFCodeFirst\\Models\\Student.cs",
