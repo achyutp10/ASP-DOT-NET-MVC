@@ -11,12 +11,25 @@ namespace CRUDwImg.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
+    using System.Web;
+
     public partial class employee
     {
         public int id { get; set; }
+
+        [DisplayName("Emloyee Name")]
+        [Required(ErrorMessage = "Name is required")]
         public string name { get; set; }
+
+        [DisplayName("Designation")]
+        [Required(ErrorMessage = "Designation is required")]
         public string designation { get; set; }
+
+        [DisplayName("Image")]
         public string image_path { get; set; }
+        public HttpPostedFileBase ImageFile { get; set; }
+
     }
 }
