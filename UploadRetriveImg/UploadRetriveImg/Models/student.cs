@@ -11,12 +11,25 @@ namespace UploadRetriveImg.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
+    using System.Web;
+
     public partial class student
     {
         public int id { get; set; }
+
+        [Required(ErrorMessage = "Name is required")]
+        [DisplayName("Student Name")]
         public string name { get; set; }
+
+        [Required(ErrorMessage = "Class is required")]
+        [DisplayName("Student Class")]
         public int standard { get; set; }
+
+        [DisplayName("Choose Image")]
         public string image_path { get; set; }
+
+        public HttpPostedFileBase ImageFile { get; set; }
     }
 }

@@ -6,8 +6,11 @@
 
 <h2>Create</h2>
 
+@Html.Raw(ViewBag.Message)
+@Html.Raw(ViewBag.ExtensionMessage)
+@Html.Raw(ViewBag.SizeMessage)
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm("Create","Home",FormMethod.Post, new {enctype="multipart/form-data"})) 
 {
     @Html.AntiForgeryToken()
     
@@ -34,8 +37,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.image_path, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.image_path, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.image_path, "", new { @class = "text-danger" })
+                <input type="file" name="ImageFile" required/>
             </div>
         </div>
 
