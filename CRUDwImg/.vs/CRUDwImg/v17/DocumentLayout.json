@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\models\\employeedbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\models\\employeedbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeDBModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Models\\EmployeeDBModel.edmx",
+              "RelativeDocumentMoniker": "CRUDwImg\\Models\\EmployeeDBModel.edmx",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Models\\EmployeeDBModel.edmx [Diagram1]",
+              "RelativeToolTip": "CRUDwImg\\Models\\EmployeeDBModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-22T13:11:37.221Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
