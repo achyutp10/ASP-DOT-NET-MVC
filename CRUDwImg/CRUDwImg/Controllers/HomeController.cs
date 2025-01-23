@@ -101,6 +101,11 @@ namespace CRUDwImg.Controllers
                             int a = db.SaveChanges();
                             if (a > 0)
                             {
+                                string ImagePath = Request.MapPath(Session["Image"].ToString());
+                                if (System.IO.File.Exists(ImagePath))
+                                {
+                                    System.IO.File.Delete(ImagePath);
+                                }
                                 TempData["UpdateMessage"] = "<script>alert('Data Updated')</script>";
                                 ModelState.Clear();
                                 return RedirectToAction("Index", "Home");
@@ -129,6 +134,7 @@ namespace CRUDwImg.Controllers
                     int a = db.SaveChanges();
                     if (a > 0)
                     {
+                        
                         TempData["UpdateMessage"] = "<script>alert('Data Updated')</script>";
                         ModelState.Clear();
                         return RedirectToAction("Index", "Home");
@@ -140,6 +146,41 @@ namespace CRUDwImg.Controllers
                 }
             }
             return View();
+        }
+
+        public ActionResult Delete(int id)
+        {
+            if (id > 0)
+            {
+                var EmployeeRow = db.employees.Where(model => model.id == id).FirstOrDefault();
+                if (EmployeeRow != null)
+                {
+                    db.Entry(EmployeeRow).State = EntityState.Deleted;
+                    int a = db.SaveChanges();
+                    if (a > 0)
+                    {
+                        TempData["DeleteMessage"] = "<script>alert('Data Deleted')</script>";
+                        string ImagePath = Request.MapPath(EmployeeRow.image_path.ToString());
+                        if (System.IO.File.Exists(ImagePath))
+                        {
+                            System.IO.File.Delete(ImagePath);
+                        }
+                    }
+                    else
+                    {
+                        TempData["UpdateMessage"] = "<script>alert('Data not Deleted')</script>";
+                    }
+
+                }
+            }
+            return RedirectToAction("Index","Home");
+        }
+
+        public ActionResult Details(int id)
+        {
+            var EmployeeRow = db.employees.Where(model => model.id == id).FirstOrDefault();
+            Session["Image2"] = EmployeeRow.image_path.ToString();
+            return View(EmployeeRow);
         }
     }
 }

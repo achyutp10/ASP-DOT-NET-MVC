@@ -7,31 +7,35 @@
       "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\crudwimg\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\crudwimg\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\crudwimg\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\crudwimg\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\crudwimg\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\models\\employeedbmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\crudwimg\\models\\employeedbmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\models\\employeedbmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|d:\\important\\coding\\1(all)impapp\\visual studio\\c# and dotnet\\dot_net\\crudwimg\\crudwimg\\models\\employeedbmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\crudwimg\\models\\employeedbmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6C11EB05-8AF8-4A54-BA2E-EC4E6321F1B8}|CRUDwImg\\CRUDwImg.csproj|solutionrelative:crudwimg\\models\\employeedbmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDwImg\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "CRUDwImg\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T03:58:22.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Views\\Home\\Edit.cshtml",
               "RelativeDocumentMoniker": "CRUDwImg\\Views\\Home\\Edit.cshtml",
@@ -54,8 +71,7 @@
               "RelativeToolTip": "CRUDwImg\\Views\\Home\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T14:54:31.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T14:54:31.469Z"
             },
             {
               "$type": "Document",
@@ -65,14 +81,14 @@
               "RelativeDocumentMoniker": "CRUDwImg\\Views\\Home\\Create.cshtml",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Views\\Home\\Create.cshtml",
               "RelativeToolTip": "CRUDwImg\\Views\\Home\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-22T14:25:55.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CRUDwImg\\Views\\Shared\\_Layout.cshtml",
@@ -80,8 +96,7 @@
               "RelativeToolTip": "CRUDwImg\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-22T14:25:04.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T14:25:04.773Z"
             },
             {
               "$type": "Document",
@@ -91,7 +106,7 @@
               "RelativeDocumentMoniker": "CRUDwImg\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CRUDwImg\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-22T13:23:30.058Z",
               "EditorCaption": ""
@@ -104,14 +119,14 @@
               "RelativeDocumentMoniker": "CRUDwImg\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CRUDwImg\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowGYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAswLIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T13:21:21.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EmployeeDBModel.Context.cs",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Models\\EmployeeDBModel.Context.cs",
               "RelativeDocumentMoniker": "CRUDwImg\\Models\\EmployeeDBModel.Context.cs",
@@ -119,12 +134,11 @@
               "RelativeToolTip": "CRUDwImg\\Models\\EmployeeDBModel.Context.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T13:20:29.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T13:20:29.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EmployeeDBModel.Context.tt",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Models\\EmployeeDBModel.Context.tt",
               "RelativeDocumentMoniker": "CRUDwImg\\Models\\EmployeeDBModel.Context.tt",
@@ -132,12 +146,11 @@
               "RelativeToolTip": "CRUDwImg\\Models\\EmployeeDBModel.Context.tt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-22T13:20:26.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T13:20:26.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "employee.cs",
               "DocumentMoniker": "D:\\Important\\Coding\\1(ALL)ImpApp\\Visual Studio\\C# and Dotnet\\dot_net\\CRUDwImg\\CRUDwImg\\Models\\employee.cs",
               "RelativeDocumentMoniker": "CRUDwImg\\Models\\employee.cs",
@@ -145,8 +158,7 @@
               "RelativeToolTip": "CRUDwImg\\Models\\employee.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T13:20:21.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T13:20:21.504Z"
             }
           ]
         }
