@@ -6,9 +6,11 @@ using System.Web.Mvc;
 
 namespace AuthorizeFilter.Controllers
 {
+    //[Authorize]
     public class HomeController : Controller
     {
         // GET: Home
+        [AllowAnonymous]
         public ActionResult Index()
         {
             return View();
@@ -19,7 +21,7 @@ namespace AuthorizeFilter.Controllers
             return View();
         }
 
-        [Authorize]
+        //[Authorize]
         public ActionResult Contact()
         {
             return View();
