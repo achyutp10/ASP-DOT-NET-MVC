@@ -15,6 +15,7 @@
 bin/
 obj/
 out/
+App_Data/
 
 # Logs
 *.log
@@ -57,3 +58,5 @@ project.fragment.lock.json
 *.tmp
 *.temp
 *.tmp.dir
+./App_Data
+*.mdf
