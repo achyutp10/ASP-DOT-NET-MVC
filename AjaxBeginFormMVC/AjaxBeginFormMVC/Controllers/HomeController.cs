@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.ModelBinding;
 using System.Web.Mvc;
 using AjaxBeginFormMVC.Models;
 
@@ -82,5 +83,21 @@ namespace AjaxBeginFormMVC.Controllers
         }
 
 
+        public ActionResult Index3()
+        {
+            int num = 2;
+            Session["data"] = num;
+            var data = db.employees.ToList().Take(num);
+            return View(data);
+        }
+
+        [HttpPost]
+        public ActionResult Index3(employee e)
+        {
+            int rows = Convert.ToInt32(Session["data"]) + 2;
+            var data = db.employees.ToList().Take(rows);
+            Session["data"] = rows;
+            return PartialView("_EmpData",data);
+        }
     }
 }

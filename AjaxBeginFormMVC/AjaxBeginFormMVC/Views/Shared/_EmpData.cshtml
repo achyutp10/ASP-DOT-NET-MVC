@@ -1,0 +1,73 @@
+﻿@model IEnumerable<AjaxBeginFormMVC.Models.employee>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.designation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salary)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.designation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.salary)
+            </td>
+        </tr>
+    }
+    @{
+        if (Convert.ToInt32(Session["data"]) > Model.Count())
+        {
+
+        }
+        else
+        {
+            <tr>
+                <td colspan="7" align="center">
+                    <div id="LoaderImage" style="display:none;">
+                        <img src="~/images/loading.gif" height="100" width="100" />
+                    </div>
+                    @Ajax.ActionLink("Load more data", "Index3", "Home",
+                   new AjaxOptions()
+                   {
+                       HttpMethod = "POST",
+                       InsertionMode = InsertionMode.Replace,
+                       UpdateTargetId = "DivUpdate",
+                       LoadingElementId = "LoaderImage",
+                       LoadingElementDuration = 1000,
+                   },
+                   new { @class = "btn btn-info" }
+                   )
+                </td>
+            </tr>
+        }
+    }
+
+</table>

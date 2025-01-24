@@ -1,0 +1,83 @@
+﻿@model IEnumerable<AjaxBeginFormMVC.Models.employee>
+
+@{
+    ViewBag.Title = "Index3";
+}
+
+<h2>Index3</h2>
+
+
+
+
+<div id="DivUpdate">
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.designation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.salary)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.designation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.salary)
+                </td>
+            </tr>
+        }
+        
+        <tr>
+            <td colspan="7" align="center">
+
+                <div id="LoaderImage" style="display:none;">
+                    <img src="~/images/loading.gif" height="100" width="100" />
+                </div>
+                @Ajax.ActionLink("Load more data", "Index3", "Home",
+               new AjaxOptions()
+               {
+                   HttpMethod = "POST",
+                   InsertionMode = InsertionMode.Replace,
+                   UpdateTargetId = "DivUpdate",
+                   LoadingElementId = "LoaderImage",
+                   LoadingElementDuration = 1000,
+               },
+               new { @class = "btn btn-info" }
+               )
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+
+
+
+
+<script src="~/Scripts/jquery-1.8.0.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
