@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AjaxBeginFormMVC.Models.employee>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.designation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salary)
+        </th>
+        <th></th>
+    </tr>
+
+    @if(Model.Count() == 0)
+    {
+                <tr>
+                    <td colspan="4">No Rows Found</td>
+                </tr>
+    }
+    else
+    {  
+
+foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.designation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.salary)
+        </td>
+       
+    </tr>
+}
+    }
+
+</table>
