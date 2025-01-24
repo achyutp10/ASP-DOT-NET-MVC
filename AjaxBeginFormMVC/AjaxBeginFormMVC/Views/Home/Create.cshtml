@@ -6,16 +6,25 @@
 
 <h2>Create</h2>
 
+<div id="LoaderImage" style="display:none;">
+    <img src="~/images/loading.gif" height="100" width="100"/>
+</div>
 <div id="DivUpdate">
 
 </div>
 
-@using (Ajax.BeginForm("Create", "Home", 
+@using (Ajax.BeginForm("Create", "Home",
     new AjaxOptions() {
         HttpMethod = "POST",
         InsertionMode = InsertionMode.Replace,
         UpdateTargetId = "DivUpdate",
-    })) 
+        LoadingElementId = "LoaderImage",
+        LoadingElementDuration = 1000,
+        Confirm = "Are you sure to insert data?",
+        //OnBegin = "",
+        OnComplete = "ClearFields",
+        //OnFailure = "",
+    }))
 {
     @Html.AntiForgeryToken()
     
@@ -24,7 +33,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control", id = "nametxt" } })
                 @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -32,7 +41,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.designation, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.designation, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.designation, new { htmlAttributes = new { @class = "form-control", id = "designationtxt" } })
                 @Html.ValidationMessageFor(model => model.designation, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -40,7 +49,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.age, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.age, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.age, new { htmlAttributes = new { @class = "form-control", id = "agetxt" } })
                 @Html.ValidationMessageFor(model => model.age, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -48,7 +57,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.salary, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.salary, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.salary, new { htmlAttributes = new { @class = "form-control", id = "salarytxt" } })
                 @Html.ValidationMessageFor(model => model.salary, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -64,6 +73,13 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
-
+<script type="text/javascript">
+    function ClearFields() {
+        document.getElementById("nametxt").value = "";
+        document.getElementById("designationtxt").value = "";
+        document.getElementById("agetxt").value = "";
+        document.getElementById("salarytxt").value = "";
+    }
+</script>
 <script src="~/Scripts/jquery-1.8.0.min.js"></script>
 <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>

@@ -25,11 +25,14 @@ namespace AjaxBeginFormMVC.Controllers
                 int a = db.SaveChanges();
                 if (a > 0) 
                 {
-                    return Json("Data Inserted !!"); 
+                    //return Json("Data Inserted !!"); 
+                    return JavaScript("alert('Data Inserted !!')"); 
                 }
                 else
                 {
-                    return Json("Data Not Inserted !!");
+                    //return Json("Data Not Inserted !!");
+                    return JavaScript("alert('Data not Inserted !!')");
+
                 }
             }
             return View();
