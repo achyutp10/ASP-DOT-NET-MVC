@@ -5,7 +5,9 @@
 }
 
 <h2>Index</h2>
-
+<div id="LoaderImage" style="display:none;">
+    <img src="~/images/loading.gif" height="100" width="100" />
+</div>
 
 @using (Ajax.BeginForm("Index", "Home",
     new AjaxOptions()
@@ -25,9 +27,7 @@
 
 }
 
-<div id="LoaderImage" style="display:none;">
-    <img src="~/images/loading.gif" height="100" width="100" />
-</div>
+
 <div id="DivUpdate">
     
     <table class="table">

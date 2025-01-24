@@ -4,6 +4,9 @@
 }
 <h2>Index 2</h2>
 
+<div id="LoaderImage" style="display:none;">
+    <img src="~/images/loading.gif" height="100" width="100" />
+</div>
 @Ajax.ActionLink("All Employees", "AllEmployees", "Home",
         new AjaxOptions()
         {
@@ -11,15 +14,33 @@
             InsertionMode = InsertionMode.Replace,
             UpdateTargetId = "DivUpdate",
             LoadingElementId = "LoaderImage",
-            LoadingElementDuration = 1000,
+
+        }
+    )
+<span style="color:rebeccapurple">------</span>
+@Ajax.ActionLink("Top 3 Salary", "Top3Emp", "Home",
+        new AjaxOptions()
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "DivUpdate",
+            LoadingElementId = "LoaderImage",
+
+        }
+    )
+<span style="color:rebeccapurple">------</span>
+@Ajax.ActionLink("Bottom 3 Salary", "Bottom3Emp", "Home",
+        new AjaxOptions()
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "DivUpdate",
+            LoadingElementId = "LoaderImage",
 
         }
     )
 
 
-<div id="LoaderImage" style="display:none;">
-    <img src="~/images/loading.gif" height="100" width="100" />
-</div>
 <div id="DivUpdate">
 
 </div>

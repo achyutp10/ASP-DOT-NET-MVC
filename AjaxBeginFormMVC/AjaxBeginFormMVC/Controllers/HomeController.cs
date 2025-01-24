@@ -70,6 +70,17 @@ namespace AjaxBeginFormMVC.Controllers
             return PartialView("_Employees",data);
         }
 
+        public ActionResult Top3Emp()
+        {
+            var data = db.employees.OrderByDescending(model => model.salary).Take(3).ToList();
+            return PartialView("_Employees",data);
+        }
+        public ActionResult Bottom3Emp()
+        {
+            var data = db.employees.OrderBy(model => model.salary).Take(3).ToList();
+            return PartialView("_Employees",data);
+        }
+
 
     }
 }
