@@ -99,5 +99,12 @@ namespace AjaxBeginFormMVC.Controllers
             Session["data"] = rows;
             return PartialView("_EmpData",data);
         }
+
+        public ActionResult Index4()
+        {
+            var data = db.employees.ToList();
+
+            return View(data);
+        }
     }
 }

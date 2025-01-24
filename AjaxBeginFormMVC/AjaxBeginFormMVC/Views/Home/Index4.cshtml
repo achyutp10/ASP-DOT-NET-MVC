@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AjaxBeginFormMVC.Models.employee>
+
+@{
+    ViewBag.Title = "Index4";
+}
+
+<h2>Index4</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table table-bordered table-hover table-striped" id="MyTable">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.name)</th>
+            <th>@Html.DisplayNameFor(model => model.designation)</th>
+            <th>@Html.DisplayNameFor(model => model.age)</th>
+            <th>@Html.DisplayNameFor(model => model.salary)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.name)</td>
+                <td>@Html.DisplayFor(modelItem => item.designation)</td>
+                <td>@Html.DisplayFor(modelItem => item.age)</td>
+                <td>@Html.DisplayFor(modelItem => item.salary)</td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Ensure jQuery is loaded first -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- DataTables CSS -->
+<link href="https://cdn.datatables.net/v/dt/dt-2.2.1/datatables.min.css" rel="stylesheet" />
+
+<!-- DataTables JS -->
+<script src="https://cdn.datatables.net/v/dt/dt-2.2.1/datatables.min.js"></script>
+
+<!-- Your custom initialization script -->
+<script>
+    $(document).ready(function () {
+        $('#MyTable').DataTable({
+            "paging": true, // Enable pagination
+            "searching": true, // Enable search
+            "ordering": true, // Enable sorting
+            "info": true, // Display table info (like "Showing 1 to 10 of 50 entries")
+            "responsive": true, // Enable responsive table layout
+            "lengthChange": true, // Allow users to change page size
+            "pageLength": 2 // Set the default page length
+        });
+    });
+</script>
+
+<!-- Unobtrusive AJAX (if needed, but not necessary for DataTable) -->
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
