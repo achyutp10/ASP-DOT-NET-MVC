@@ -59,6 +59,17 @@ namespace AjaxBeginFormMVC.Controllers
             }
         }
 
+        public ActionResult Index2()
+        {
+
+            return View();
+        }
+        public ActionResult AllEmployees()
+        {
+            var data = db.employees.ToList();
+            return PartialView("_Employees",data);
+        }
+
 
     }
 }

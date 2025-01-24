@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index2";
+}
+<h2>Index 2</h2>
+
+@Ajax.ActionLink("All Employees", "AllEmployees", "Home",
+        new AjaxOptions()
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "DivUpdate",
+            LoadingElementId = "LoaderImage",
+            LoadingElementDuration = 1000,
+
+        }
+    )
+
+
+<div id="LoaderImage" style="display:none;">
+    <img src="~/images/loading.gif" height="100" width="100" />
+</div>
+<div id="DivUpdate">
+
+</div>
+
+
+<script src="~/Scripts/jquery-1.8.0.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
