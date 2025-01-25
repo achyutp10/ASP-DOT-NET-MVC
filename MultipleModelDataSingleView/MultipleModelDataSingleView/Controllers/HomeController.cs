@@ -45,5 +45,12 @@ namespace MultipleModelDataSingleView.Controllers
         {
             return db.teachers.ToList();
         }
+
+        public ActionResult Index2()
+        { 
+            List<student> stdList = db.students.ToList();
+            ViewBag.StdTbl = new SelectList(stdList, "Id", "name");
+            return View();
+        }
     }
 }
