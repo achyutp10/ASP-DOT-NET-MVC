@@ -1,0 +1,70 @@
+﻿@using MultipleModelDataSingleView.Models
+
+@model MultiModelData
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{ 
+    Html.RenderAction("Students");
+}
+@{ 
+    Html.RenderAction("Teachers");
+}
+
+<!--<h1>Students Data</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Fees</th>
+        </tr>
+    </thead>
+    <tbody>-->
+        @*@foreach (var item in Model.my_students)*@
+        @*@foreach (var item in ViewBag.students)*@
+        @*@foreach (var item in (List<student>)ViewData["students"])*@
+        <!--{
+            <tr>-->
+            @*<td>@item.Id</td>*@
+            @*<td>@item.name</td>*@
+            @*<td>@item.gender</td>*@
+            @*<td>@(item.@class)</td>*@
+            @*<td>@item.fees</td>*@
+        <!--</tr>
+        }
+    </tbody>
+</table>-->
+
+@*<h1>Techers Data</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Qualification</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.teachers)
+        {
+            <tr>
+            <td>@item.Id</td>
+            <td>@item.name</td>
+            <td>@item.gender</td>
+            <td>@item.qualification</td>
+            <td>@item.salary</td>
+        </tr>
+        }
+    </tbody>
+</table>*@

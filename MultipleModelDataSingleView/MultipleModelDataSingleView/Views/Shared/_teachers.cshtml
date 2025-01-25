@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MultipleModelDataSingleView.Models.teacher>
+
+<h1>Techers Data</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Qualification</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.name</td>
+                <td>@item.gender</td>
+                <td>@item.qualification</td>
+                <td>@item.salary</td>
+            </tr>
+        }
+    </tbody>
+</table>
